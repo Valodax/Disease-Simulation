@@ -2,10 +2,9 @@
 
 
 
-<h3>Overview:</h3>
+<h3>Overview</h3>
 
-diseaseSim.py’s purpose is to simulate the outbreak of a disease based on a number of user defined variables. The variables that can be defined are:
-
+<p align="center">diseaseSim.py’s purpose is to simulate the outbreak of a disease based on a number of user defined variables. The variables that can be defined are:
 •	Neighbourhood type – this will either be ‘Moore’ or ‘Von Neumann’ cellular automata neighbourhoods. This will determine the ‘rules’ of the simulation and what the population is allowed to interact with and how they will behave each timestep.
 •	Grid type – this will instruct the program to either [1. Run using a default area (see columns and rows)] or [2. Search the local directory for a ‘barriers.csv’ file that can be used to manually determine the ‘grid space’ and rows and columns (see ‘barriers.csv’ definition)].
 •	Starting population – which must be an integer greater than or equal to 0. This variable will populate the simulation and assign ‘people’ to a random location in the grid. It is determined by the user entering a value and is then recalculated when the user specifies starting infected and starting immune.
@@ -17,7 +16,7 @@ diseaseSim.py’s purpose is to simulate the outbreak of a disease based on a nu
 •	Probability of death – this must be another float less than 1 and greater than 0. It determines the chances of an ‘infected person’ dying. In other words, this will decrease the ‘total population’. (Note: please see the bugs at the bottom of the page).
 •	Columns – this is an integer greater than or equal to 0. It is the quantity which defines the horizontal axis of the ‘grid space’.
 •	Rows – this is an integer greater than or equal to 0. It is the quantity which defines the vertical axis of the ‘grid space’.
-•	Printing timesteps – this is a char input (either ‘y’ or ‘n’) and will determine whether the ‘grid space’ will be displayed on the screen.
+•	Printing timesteps – this is a char input (either ‘y’ or ‘n’) and will determine whether the ‘grid space’ will be displayed on the screen.</p>
 
 
 
