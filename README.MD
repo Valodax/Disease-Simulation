@@ -4,7 +4,7 @@
 
 <h3>Overview</h3>
 
-<p align="center">diseaseSim.py’s purpose is to simulate the outbreak of a disease based on a number of user defined variables. The variables that can be defined are:
+<p style="text-align:justify;">DieaseSim.py’s purpose is to simulate the outbreak of a disease based on a number of user defined variables. The variables that can be defined are:
 •	Neighbourhood type – this will either be ‘Moore’ or ‘Von Neumann’ cellular automata neighbourhoods. This will determine the ‘rules’ of the simulation and what the population is allowed to interact with and how they will behave each timestep.
 •	Grid type – this will instruct the program to either [1. Run using a default area (see columns and rows)] or [2. Search the local directory for a ‘barriers.csv’ file that can be used to manually determine the ‘grid space’ and rows and columns (see ‘barriers.csv’ definition)].
 •	Starting population – which must be an integer greater than or equal to 0. This variable will populate the simulation and assign ‘people’ to a random location in the grid. It is determined by the user entering a value and is then recalculated when the user specifies starting infected and starting immune.
